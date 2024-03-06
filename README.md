@@ -5,6 +5,7 @@
 - ![Flask Logo](https://flask.palletsprojects.com/en/2.1.x/_static/flask-icon.png) Flask
 - ![MySQL Logo](https://www.mysql.com/common/logos/logo-mysql-170x115.png) MySQL
 - ![Git Bash Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png) Git Bash
+- ![Git Bash Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png) Git Bash
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="80"> GitHub
 
 ## Acknowledgments
