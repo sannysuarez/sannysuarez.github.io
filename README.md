@@ -15,3 +15,6 @@
 - **YOU** - For reading this documentation and testing my simple web App. I hope you enjoyed the ride!
 - More acknowledges to come before the session is due.
 
+
+## Licensing
+surf the web App with no boundaries but the usage of the datasets therein will be shared in mean time.  
