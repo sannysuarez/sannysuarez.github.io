@@ -7,7 +7,7 @@
 - ![MySQL Logo](https://www.mysql.com/common/logos/logo-mysql-170x115.png) MySQL
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git Bash Logo" width="100"> Git Bash
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="80"> GitHub
-- 
+  
 
 ## Acknowledgments
 - **ALX-Africa mentors** - For the help, advice and resources they provided us with during this project and during all our curriculum.
