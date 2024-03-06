@@ -4,7 +4,7 @@ DVI is a comprehensive data visualization web app designed to unlock the power o
 
 
 ## Screenshots
-!(https://github.com/sannysuarez/DVI/blob/main/screenshots/Screenshot%202024-03-06%20123531.png)
+![screenshot](https://github.com/sannysuarez/DVI/blob/main/screenshots/Screenshot%202024-03-06%20123531.png)
 
 ## Features
 ### (registered member for these)
