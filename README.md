@@ -12,9 +12,9 @@ DVI is a comprehensive data visualization web app designed to unlock the power o
 
 
 ## Getting started
-1 Clone the Repository:
-2 Install Dependencies:
-3 Run the Application:
+1. Clone the Repository:
+2. Install Dependencies:
+3. Run the Application:
 
 
 ## Technologies used
