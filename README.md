@@ -3,6 +3,7 @@
 ## Technologies used
 - ![Python Logo](https://www.python.org/static/img/python-logo.png) Python
 - ![Flask Logo](https://flask.palletsprojects.com/en/2.1.x/_static/flask-icon.png) Flask
+- <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="50"> GitHub
 - ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) GitHub
 
 ## Acknowledgments
