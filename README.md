@@ -1,6 +1,5 @@
 ## DVI - Data Visualization Insights
-
-## Overview
+### Overview
 DVI is a comprehensive data visualization web app designed to unlock the power of rich datasets, providing insightful and interactive visualizations. This project is the culmination of my journey at **ALX-Africa**, where I've harnessed a diverse set of skills in software engineering.
 
 ## Features
