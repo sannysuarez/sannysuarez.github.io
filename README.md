@@ -11,6 +11,12 @@ DVI is a comprehensive data visualization web app designed to unlock the power o
 - Collaboration: Foster collaboration by sharing visualizations and dashboards with team members, promoting data-driven decision-making across your organization.
 
 
+## Getting started
+1 Clone the Repository:
+2 Install Dependencies:
+3 Run the Application:
+
+
 ## Technologies used
 - ![Python Logo](https://www.python.org/static/img/python-logo.png) Python
 - ![Flask Logo](https://flask.palletsprojects.com/en/2.1.x/_static/flask-icon.png) Flask
