@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for( 'static', filename='import.css') }}"/>
+</head>
+<body>
+
+<!-- plotly Diagram here. -->
+
+{% for plot in plots %}
+ <div>
+     {{ plot | safe }}
+ </div>
+{% endfor %}
+
+</body>
+</html>
