@@ -3,7 +3,7 @@
 ## Technologies used
 - ![Python Logo](https://www.python.org/static/img/python-logo.png) Python
 - ![Flask Logo](https://flask.palletsprojects.com/en/2.1.x/_static/flask-icon.png) Flask
-- ![Plotly Logo](https://plotly.com/assets/images/plotly_logo_2017.png) Plotly
+- ![Plotly Logo](/logos/plotly_logo.png) Plotly
 - ![MySQL Logo](https://www.mysql.com/common/logos/logo-mysql-170x115.png) MySQL
 - ![Git Bash Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png) Git Bash
 - ![Nginx Logo](https://www.nginx.com/wp-content/uploads/2020/05/NGINX-logo-rgb-large.png) Nginx
