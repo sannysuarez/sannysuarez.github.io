@@ -21,20 +21,20 @@ border-right:2px solid;
 .head .tagline{
 color: rgb(255, 255,255);
 padding-left:20px;
-font-size:20px;
-letter-spacing: 3px;
+font-size:15px;
+letter-spacing: 2px;
 font-style:oblique;
 }
 
 .head .label a{
 color: rgb(255, 255, 255);
-padding:20px;
-margin:5px;
-width:25px;
+padding:10px;
+margin:15px;
 float:right;
 font-size:20px;
 border: white 2px solid;
-border-radius:50px;
+border-radius: 17px ;
+text-decoration: none;
 }
 
 .glow {
@@ -56,7 +56,7 @@ border-radius:50px;
 }
 
 .content .navigate a{
-color:#fff;
+
 font-size:30px;
 letter-spacing:5px;
 font-weight: 900;
@@ -70,9 +70,10 @@ border-radius:50px;
 }
 
 .content .icons{
+width: 100%;
 font-size: 100px;
 padding: 25px;
-margin: 25px;
+margin: 0;
 word-spacing: 85px;
 text-align: center;
 }
@@ -93,3 +94,81 @@ text-decoration: none;
 text-align: center;
 }
 
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:  rgb(21, 1, 56);;
+  padding: 10px;
+}
+
+.main h3,p {color:#fff;}
+
+.main p{ font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.main h3{font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.tab{
+border: #00ff00 solid;
+border-radius: 15px;
+padding: 5px;
+color: azure;
+text-decoration: none;
+}
+
+.social{
+font-size: 30px;
+padding: 10px;
+margin: 0;
+word-spacing: 30px;
+text-align: center;
+}

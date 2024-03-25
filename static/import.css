@@ -1,31 +1,8 @@
 body{margin:0; padding:0; background-color:rgb(255, 255, 255);}
 
-
 /* Hide plotly logo */
 #react-entry-point{margin-left: 0 !important;}
-
-
-form{
-padding:20px;
-margin:20px;
-word-spacing:10px;
+.topnav .heading{
+background-color: grey;
+width: 100%;
 }
-
-input{
-font-size:15px;
-font-style: oblique;
-padding:5px;
-border:1px solid #ccc;
-border-radius: 5px;
-color: rgb(0, 0, 0);
-}
-
-.head{position:relative;padding:10px; margin:10px;}
-
-mark{
-padding:10px;
-color:white;
-background-color:grey;
-border-radius:10px;
-font-weight:700;
-letter-spacing:2px;}
