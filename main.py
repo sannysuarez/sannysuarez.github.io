@@ -133,6 +133,11 @@ def update_europe_pop_plot(selected_year):
 def index():
     return render_template('index.html')
 
+# Dvi route
+@app.route('/dvi.html/')
+def dvi():
+    return render_template('dvi.html')
+
 
 # Dash route for the Dash application
 @dash_app.server.route('/import.html/')

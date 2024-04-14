@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DVI - Home</title>
+    <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"/>
+<link rel="stylesheet" href="{{ url_for( 'static', filename='style.css') }}"/>
+</head>
+<body>
+
+<section class="head">
+    <header class="label">
+        <span class="border" style="font-weight:900;">DVI</span>
+        <span class="tagline">Data visualization insights</span>
+
+
+            <a href="#" style="background-color:#fff; color:rgb(21, 1, 56);">Sign in</a>
+            <a href="{{ url_for('/import.html/') }}">Explore</a>
+            <a href="#about" style="border: none; text-decoration: underline rgb(0, 225, 0); font-size: xx-large;">About</a>
+    </header>
+</section><br/><br/><br/><br/>
+
+<section class="content">
+    <h5 class="glow">we bring <strong>DATA</strong> to life !</h5>
+
+
+
+    <!-- MAIN (Center website) -->
+<div class="main">
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+            <img src="{{ url_for('static', filename='img/line_chart.webp') }}" alt="Line" style="width:100%">
+          <h3>Line chart</h3>
+          <p>Great for showing trends over time.<br><br>Uncover hidden trends with a single click! Explore dynamic data visualizations that transform complexity into clarity.<br><br><a href="#" class="tab">Check it</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+            <img src="{{ url_for('static', filename='img/bar_chart.webp') }}" alt="Bar" style="width:100%">
+          <h3>Bar chart</h3>
+          <p>Used to compare different categories or groups.<br><br>See your progress in living color. Our charts not only visualize data but also chart your path towards success.<br><br><a href="#" class="tab">Try it</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+         <img src="{{ url_for('static', filename='img/pie_chart.jpeg') }}" alt="Pie" style="width:100%">
+          <h3>Pie chart</h3>
+          <p>Used to show how a whole is divided into different parts.<br><br>Navigate the seas of information with confidence. Our charts are your compass, guiding you to meaningful insights. <br><br><a href="#" class="tab">See it</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+            <img src="{{ url_for('static', filename='img/scatter_plot.webp') }}" alt="Scatter" style="width:100%">
+          <h3>Scatterplot</h3>
+          <p>Used to show relationship between two variables.<br><br> Transform <a href="#" style="color:rgb(0,255, 0);"> raw </a> data into your biggest asset. Our visualizations empower you to harness the true potential of every data point.<br><br><a href="#" class="tab">Dive in</a></p>
+        </div>
+      </div>
+    <!-- END GRID -->
+    </div>
+
+    <div class="content">
+        <img src="{{ url_for('static', filename='img/about.webp') }}" alt="About" style="width:100%; height:400px;">
+      <h3 id="about">About</h3>
+      <p>DVI is a comprehensive data visualization platform designed to unlock the power of rich datasets, providing insightful and interactive visualizations. This project is the culmination of my journey at <a href="https://www.alxafrica.com" style="text-decoration: none;color: rgb(0, 225, 0);">Alx Africa</a> where I've harnessed a diverse set of skills in data analysis, visualization, and software development.</p>
+      <p> The journey began with a realization – the ability to translate raw data into meaningful insights has the power to drive informed decisions, spark innovation, and uncover patterns that shape our understanding of the world.
+
+        The spark ignited during a late-night exploration of various datasets, where I stumbled upon the Gapminder dataset – a treasure trove of socio-economic indicators spanning decades. It was a eureka moment, the perfect canvas to bring my vision to life.
+
+        The project timeline mirrors my growth and learning milestones. In the initial stages, the challenges of handling diverse datasets sharpened my technical acumen. The pursuit of perfection led me to create an immersive data visualization experience, with Plotly emerging as the tool of choice for its versatility and elegance.
+
+        <br><br> the non-technical front, the limitations posed by the dataset became an invitation to think creatively. The project became a testament to my adaptability and resilience, navigating the constraints with a focus on extracting profound insights rather than being stifled by the limitations.
+
+        This isn't just a project; it's a personal narrative, a journey of self-discovery through the lens of data.<br><br> As a Portfolio Project for <a href="https://www.alxafrica.com" style="text-decoration: none; color: rgb(0, 225, 0);">Alx Africa</a>, it encapsulates the culmination of my skills, passion, and the transformative learning experience at ALX.</p>
+    </div>
+    <!-- END MAIN -->
+    </div>
+
+    <div class="social">
+        <a href="https://www.linkedin.com/in/sannysuarez" name="social-icon"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.twitter.com/itz_sanny" name="social-icon"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.github.com/sannysuarez/DVI" name="social-icon"><i class="fa fa-github"></i></a>
+    </div>
+
+    <div class="icons">
+        <a href="#" name="chart-icon"><i class="fa fa-credit-card"></i></a>
+        <a href="#" name="chart-icon"><i class="fa fa-google"></i></a>
+        <a href="#" name="chart-icon"><i class="fa fa-code"></i></a>
+        <a href="#" name="chart-icon"><i class="fa fa-windows"></i></a>
+    </div>
+</section>
+
+
+<section class="foot">
+     <a href="#"> <div class="label" >Portfolio - 2024 </div></a>
+</section>
+
+</body>
+</html>

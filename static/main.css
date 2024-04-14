@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+}
+
+ /* Your CSS styles for smaller screens go here */
+@media screen and (max-width: 812px) {
+
+    header .social_handles{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20%;
+        padding-top: 10px;
+    }
+    
+    header .social_handles a{
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        text-decoration: none;
+        color:#247003;
+        border: #247003 1px solid;
+        width: 14px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    header{
+        background-color: #46da06;
+        width: 100%;
+        height: 30%;
+        border-bottom: #FFFFFF 7px solid;
+    }
+    
+    header .me label{
+        color: #38ae04;
+        font-size: x-large;
+        font-style: oblique;
+        letter-spacing: 1px;
+        padding: 10px;
+        display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center; /* Vertically center */
+    }
+    
+    img{
+        border-radius: 50%;
+        border: #FFFFFF 7px solid;
+        width: 150px;
+    }
+    
+    label{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: larger;
+        font-style: oblique;
+        justify-content: center;
+        align-items: center;
+        display:block;
+
+    }
+    
+    header .pic_and_label{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    footer{
+        background-color: 	#05014a;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .nav{
+        align-items: center;
+        justify-content: center;
+        padding-top: 90px;
+    }
+    
+    .nav a{
+        text-decoration: none;
+        display: block;
+        background-color: 	#020079;
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-style: oblique;
+        border-radius:  5px ;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    li{
+        list-style: none;
+        margin: 20px;
+    }
+}
+
+
+ /* Your CSS styles for larger screens go here */
+
+@media screen and (min-width: 812px) {
+
+    header .social_handles{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20%;
+    }
+    
+    header .social_handles a{
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        text-decoration: none;
+        color:#247003;
+        border: #247003 1px solid;
+        width: 20px;
+        border-radius: 50%;
+        padding: 20px;
+    }
+    header{
+        background-color: #46da06;
+        width: 100%;
+        height: 30%;
+        border-bottom: #FFFFFF 7px solid;
+    }
+    
+    header .me label{
+        color: #38ae04;
+        position: absolute;
+        padding-top: 70px;
+        font-size: xx-large;
+        font-style: oblique;
+        letter-spacing: 3px;
+        padding-left: 15%;
+        display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center; /* Vertically center */
+    }
+    
+    img{
+        border-radius: 50%;
+        border: #FFFFFF 7px solid;
+        width: 200px;
+    }
+    
+    label{
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: xx-large;
+        font-style: oblique;
+    }
+    
+    header .pic_and_label{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        padding-top: 3%;
+        float: left;
+
+    }
+    
+    footer{
+        background-color: 	#05014a;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .nav{
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        width: 60%;
+        margin: 80px;
+        padding-top: 10px;
+    }
+    
+    .nav a{
+        text-decoration: none;
+        display: block;
+        background-color: 	#020079;
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-style: oblique;
+        border-radius:  5px ;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    li{
+        list-style: none;
+        margin: 20px;
+    }
+}
